@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>TINY</title>
+    <script src='./index.js' defer></script>
+    <link rel='stylesheet' href='index'></link>
+    <title>Document</title>
 </head>
-
 <body>
-    <nav class="nav">
-        <div class="app">
-            app
-        </div>
-        <div class="blog">
-            blog
-        </div>
-        <div class="shop">
-            shop
-        </div>
-        <div class="note">
-            note
-        </div>
-        <div class="game">
-            game
-        </div>
-    </nav>
+    <div class="container">
+        <header>
+            <a href="">app</a>
+            <a href="">blog</a>
+            <a href="">shop</a>
+            <a href="">note</a>
+            <a href="">game</a>
+        </header>
 
+        <aside class="left">
+            <button id='left-button'><</button>
+        </aside>
 
-    <div class="title-container">
-        <div class="left-click">
-            < </div>
+        <main>
+            <span>tiny <span id='app-name'></span></span>
+            <span>coming soon</span>
+        </main>
 
-                <h1 class="title">
-                    tiny <span class="app">app</span>
-                </h1>
+        <aside class="right">
+            <button id="right-button">></button>
+        </aside>
 
-                <div class="right-click">
-                    >
-                </div>
-        </div>
-        <p class='soon'>
-            coming soon
-        </p>
+        <footer>
 
+        </footer>
+    </div>
 </body>
-
 </html>
