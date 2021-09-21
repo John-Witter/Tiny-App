@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='./index.js' defer></script>
-    <link rel='stylesheet' href='index'></link>
+    <link rel='stylesheet' href='./index.css'></link>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="nav">
             <a href="">app</a>
             <a href="">blog</a>
             <a href="">shop</a>
@@ -18,18 +18,23 @@
             <a href="">game</a>
         </header>
 
-        <aside class="left">
-            <button id='left-button'><</button>
-        </aside>
-
+        
         <main>
-            <span>tiny <span id='app-name'></span></span>
-            <span>coming soon</span>
+            <aside class="left">
+                <button id='left-button' class="carrot"><</button>
+            </aside>
+            
+            <div class="title">
+                <span id='tiny'>tiny <span id='app-name'></span></span>
+                <span id='soon'>coming soon</span>
+            </div>
+
+            
+            <aside class="right">
+                <button id="right-button" class="carrot">></button>
+            </aside>
         </main>
 
-        <aside class="right">
-            <button id="right-button">></button>
-        </aside>
 
         <footer>
 

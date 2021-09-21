@@ -8,6 +8,7 @@ let apps = [
 ]
 
 let appName = document.getElementById('app-name')
+let carrots = document.querySelectorAll('.carrot')
 appName.innerText = apps[0]
 
 
@@ -16,12 +17,14 @@ const toggleDark = () => {
     document.body.style.backgroundColor = '#000000'
     document.body.style.color = '#FFFFFF'
     appName.style.color = 'red'    
+    carrots.forEach(carrot => carrot.style.color = 'white')
 }
 
 const toggleLight = () => {
-    document.body.style.color = '#000000'
     document.body.style.backgroundColor = '#FFFFFF'
-    appName.style.color = 'red'    
+    document.body.style.color = '#000000'
+    appName.style.color = 'rgb(0, 209, 231)'
+    carrots.forEach(carrot => carrot.style.color = 'black')
 }
 
 
@@ -33,14 +36,14 @@ const rotateRight = () => {
     // this allows us to only care about apps[0]
     apps.push(apps.shift()) 
     appName.innerText = apps[0]
-    apps[0] === 'grave' ? toggleDark() : null
+    apps[0] === 'grave' ? toggleDark() : toggleLight()
     return apps
 }
 
 const rotateLeft = () => {
     apps.unshift(apps.pop())
     appName.innerText = apps[0]
-    apps[0] === 'grave' ? toggleDark() : null
+    apps[0] === 'grave' ? toggleDark() : toggleLight()
     return apps
 }
 

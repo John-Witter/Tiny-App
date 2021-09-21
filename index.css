@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+a {    
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #aaa;
+}
+
+main {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tiny #app-name{
+    letter-spacing: 1px;
+}
+
+#app-name {
+    color: rgb(0, 209, 231);
+}
+
+#soon {
+    font-size: 20px;
+}
+
+#left-button, #right-button {
+    background: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#left-button {
+    margin-left: 50px;
+}
+
+#right-button {
+    margin-right: 50px;
+}
+
+.carrot:hover {
+    cursor: pointer;
+}
