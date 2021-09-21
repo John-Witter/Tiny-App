@@ -21,12 +21,14 @@ a:hover {
 }
 
 main {
-    width: 100%;
+    width: 700px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-around; */
 }
 
 .title {
@@ -60,14 +62,13 @@ span {
 }
 
 #left-button {
-    margin-right: 50px;
-}
-
-#right-button {
     margin-left: 50px;
 }
 
-.carrot {
-    color: #000;
-    font-weight: 700;
+#right-button {
+    margin-right: 50px;
+}
+
+.carrot:hover {
+    cursor: pointer;
 }
