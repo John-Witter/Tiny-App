@@ -66,3 +66,8 @@ span {
 #right-button {
     margin-left: 50px;
 }
+
+.carrot {
+    color: #000;
+    font-weight: 700;
+}
