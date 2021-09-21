@@ -1,3 +1,8 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 .nav {
     display: flex;
     justify-content: space-evenly;
@@ -13,4 +18,51 @@ a {
 a:hover {
     cursor: pointer;
     color: #aaa;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tiny #app-name{
+    letter-spacing: 1px;
+}
+
+#app-name {
+    color: rgb(0, 209, 231);
+}
+
+#soon {
+    font-size: 20px;
+}
+
+#left-button, #right-button {
+    background: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#left-button {
+    margin-right: 50px;
+}
+
+#right-button {
+    margin-left: 50px;
 }
