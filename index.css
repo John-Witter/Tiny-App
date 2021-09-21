@@ -1,12 +1,12 @@
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .nav {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: sans-serif;
 }
 
