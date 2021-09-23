@@ -4,7 +4,8 @@ let apps = [
     'shop',
     'note',
     'game',
-    'grave'
+    'grave',
+    'art'
 ]
 
 let appName = document.getElementById('app-name')
