@@ -1,0 +1,1 @@
+[keycode info site](https://keycode.info/) let's you enter a key and get it's key code
